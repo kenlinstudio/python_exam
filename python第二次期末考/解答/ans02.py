@@ -1,6 +1,3 @@
-import time
-tStart = time.time()
-
 while True:
     try:
         n = eval(input())
@@ -16,6 +13,3 @@ while True:
     except:
         continue
 print(sum(C))
-
-tEnd = time.time()
-print("It cost %f sec" %(tEnd - tStart))
