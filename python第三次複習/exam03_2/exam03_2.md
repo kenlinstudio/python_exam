@@ -20,7 +20,7 @@
 數字1(int 或 float)<br>
 數字2(int 或 float)<br>
 ...<br>
-q<br>
+-1<br>
 
 ## Output Format ##
 
@@ -36,7 +36,7 @@ List容器(未排序過)<br>
 3
 -3
 -2
-q
+-1
 ```
 
 ## Sample Output 1 ##
@@ -51,7 +51,7 @@ q
 5
 python (這邊要提醒使用者"請輸入數字")
 -3
-q
+-1
 ```
 
 ## Sample Output 2 ##
