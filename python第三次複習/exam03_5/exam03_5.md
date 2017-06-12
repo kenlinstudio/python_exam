@@ -1,35 +1,35 @@
-# Ū��txt-�M��Z�W�°�(Dark Horse) #
+# 讀取txt-班上成績 #
 
-## ���� ##
+## 說明 ##
 
 
-�{�b�ڭ̦��Y���]�ꤤ�Z�W���ƾ�<b>������</b>�P<b>������</b>�����Z�ɮ�<br>
-��Ū���G<br>
-1.�����ҡG <code>../app/MathScoreMid01.txt</code> <br>
-2.�����ҡG <code>../app/MathScoreFinal01.txt</code> <br>
+現在我們有某公館國中班上的數學<b>期中考</b>與<b>期末考</b>的成績檔案<br>
+請讀取：<br>
+1.期中考： <code>../app/MathScoreMid01.txt</code> <br>
+2.期末考： <code>../app/MathScoreFinal01.txt</code> <br>
 
-�n�D�G<br>
-1.���C�ӤH������<br>
-2.��즨�Z����60�����P��<br>
-3.�������Ұh�B�̦h���ǥ͡A�æC�L�X��<br>
+要求：<br>
+1.找到每個人的平均<br>
+2.找到成績不滿60分的同學<br>
+3.找到期末考退步最多的學生，並列印出來<br>
 
 <br>
-ID:�ǥͽs��<br>
-score:�Ҹզ��Z<br>
+ID:學生編號<br>
+score:考試成績<br>
 <br>
 
 ## Input Format ##
 
-��J��Ӧr����ܤU�C����ɮת��W�r�C�Ҧp MathScoreMid01.txt �A MathScoreFinal01.txt �C<br>
-1.�����Ҧ��Z.txt<br>
-2.�����Ҧ��Z.txt<br>
-�Ҧ���Ƴ��OID�Ѥp�Ӥj�Ʀn�F�C<br>
+輸入兩個字串表示下列兩個檔案的名字。例如 MathScoreMid01.txt ， MathScoreFinal01.txt 。<br>
+1.期中考成績.txt<br>
+2.期末考成績.txt<br>
+所有資料都是ID由小而大排好了。<br>
 
 ## Output Format ##
 
-1.���C�ӤH������<br>
-2.��즨�Z����60�����P��<br>
-3.�������Ұh�B�̦h���ǥ�(���@�w�u���@��)<br>
+1.找到每個人的平均<br>
+2.找到成績不滿60分的同學<br>
+3.找到期末考退步最多的學生(不一定只有一位)<br>
 
 ## Sample Input 1 ##
 ```
