@@ -10,10 +10,17 @@ for i in range(n-1):
 print(X)
 print(sum(X))
 
-
+#注意一下如何控制這個輸出格式：
+print('注意一下如何控制這個輸出格式，如下：')
 for i in range(len(X)):
     if i != len(X)-1:
-        print(X[i],'+ ',end="")
+        if X[i] < 0:
+            print('(%d)'%X[i],'+ ',end="")
+        else:
+            print(X[i],'+ ',end="")
     else:
-        print(X[i],'= ',end='')
+        if X[i] < 0:
+            print('(%d)'%X[i],'= ',end="")
+        else:
+            print(X[i],'= ',end="")
 print(sum(X))
